@@ -2,16 +2,59 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18412014&assignment_repo_type=AssignmentRepo)
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
+Version control offers a platform for a project to be worked on without making unnecessary changes to the source file. It helps track changes made to a particular program over time. 
+This way, every change made by a developer can be traced, tracked, edited and even reversed and this helps maintain the integrity of data. Git hub is a cloud-based platform where developers can store, share and make changes to their repositories. 
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
+To set up a new repository, a github account has to be created. 
+Proceed to log on using your email address and password
+Head to the dashboard page 
+To the top lefthand corner, select new repository 
+Fill in the required fields marked with asterisks
+The desired repository name should be filled in the "repository name" section
+Then proceed to create the repository 
+You can choose to download the repository file, to your PC, save in a folder and proceed to import in into Visual Studio code where you can make extra changes to the repository. 
+Extra changes can be made to the repository via VS code following the steps below 
+git.init (To initalise git)
+git add . 
+git commit -m "First save of the class" (desired file name")
+git remote add orgin (
+git clone git clone https://github.com/agu803eh/agu803eh (This creates an alternate branch in a bid not to alter the main)
+git push orgin main (This pushes created file to the repository, agu803eh in Github)
+git show (ashows details and time of changes made to a repo)
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
-## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
+A readme file gives an overview of a given project. It tells the scope of the project, outline specific information or instructions required in/of the project as well asdetailing how to set up/ install the project and what contributions other can make to the project.  
 
+## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
+A public repository is one which is visible and accessible to the public while a private repository can only be worked on by the root user or those who have the required right privileges.
+A public repository is required for open source projects that are to be shared or amde available to the public, community or globally while a private repo is mainly used for internal projects. 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
+Commits are used to capture the state of a project agt a point in time. 
+Please see below how commits are made and how they help track changes 
+
+
+To set up a new repository, a github account has to be created. 
+Proceed to log on using your email address and password
+Head to the dashboard page 
+To the top lefthand corner, select new repository 
+Fill in the required fields marked with asterisks
+The desired repository name should be filled in the "repository name" section
+Then proceed to create the repository 
+You can choose to download the repository file, to your PC, save in a folder and proceed to import in into Visual Studio code where you can make extra changes to the repository. 
+Extra changes can be made to the repository via VS code following the steps below 
+git.init (To initalise git)
+git add . 
+git commit -m "First save of the class" (desired file name")
+git remote add orgin (
+git clone git clone https://github.com/agu803eh/agu803eh (This creates an alternate branch in a bid not to alter the main)
+git push orgin main (This pushes created file to the repository, agu803eh in Github)
+git show (ashows details and time of changes made to a repo)
+
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+Branching helps developers make edits to a given code whithout affacting the main file. Its fun ction is to create an alternate, parallel version of the original code 
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
